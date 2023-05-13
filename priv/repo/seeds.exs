@@ -32,7 +32,7 @@ products = [
   }
 ]
 
-Enum.each(products, fn product -> 
+Enum.each(products, fn product ->
   Catalog.create_product(product)
 end)
 

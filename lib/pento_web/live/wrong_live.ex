@@ -1,7 +1,5 @@
 defmodule PentoWeb.WrongLive do
   use PentoWeb, :live_view
-  alias Pento.Accounts
-  require IEx
 
   def mount(_params, session, socket) do
     {:ok,
